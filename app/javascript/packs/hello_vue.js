@@ -15,6 +15,9 @@ var app6 = new Vue({
   methods: {
     reverseMessage: function () {
       this.message = this.message.split('').reverse().join('')
+    },
+    clearMessage: function () {
+      this.message = ""
     }
   }
 })
