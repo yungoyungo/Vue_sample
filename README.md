@@ -2,7 +2,7 @@
 
 Ruby on Rails + Vue.jsを使ってクライアント側で動的に変化するページを作成します。
 
-## 参考サイト
+## 参考
 
 [Rails 5.1 + Vue.js で開発を行う - Qiita](https://qiita.com/cohki0305/items/582c0f5ed0750e60c951)  
 

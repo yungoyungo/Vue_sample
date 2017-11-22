@@ -7,7 +7,7 @@
 
 import Vue from 'vue/dist/vue.esm'
 
-var app6 = new Vue({
+var form = new Vue({
   el: '#form',
   data: {
     message: 'Hello Vue!'
@@ -18,6 +18,18 @@ var app6 = new Vue({
     },
     clearMessage: function () {
       this.message = ""
+    },
+    randomMessage: function () {
+      var l = 8;
+      // 生成する文字列に含める文字セット
+      var c = "abcdefghijklmnopqrstuvwxyz";
+      
+      var cl = c.length;
+      var r = "";
+      for(var i=0; i<l; i++){
+        r += c[Math.floor(Math.random()*cl)];
+      }
+      this.message = r
     }
   }
 })

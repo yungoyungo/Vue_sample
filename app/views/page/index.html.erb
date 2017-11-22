@@ -1,8 +1,9 @@
 <div id="form">
-    <input v-model="message"><br>
-    <button v-on:click="reverseMessage">Reverse Message</button>
-    <button v-on:click="clearMessage">Clear Message</button>
-    <p>{{ message }}</p>
+  <input v-model="message"><br>
+  <button v-on:click="reverseMessage">Reverse Message</button>
+  <button v-on:click="clearMessage">Clear Message</button>
+  <button v-on:click="randomMessage">Random Message</button>
+  <h1>{{ message }}</h1>
 </div>
 
 <%= javascript_pack_tag 'hello_vue' %>
