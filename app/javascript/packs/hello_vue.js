@@ -20,9 +20,9 @@ var form = new Vue({
       this.message = ""
     },
     randomMessage: function () {
-      var l = 8;
+      var l = 3;
       // 生成する文字列に含める文字セット
-      var c = "abcdefghijklmnopqrstuvwxyz";
+      var c = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんっ";
       
       var cl = c.length;
       var r = "";

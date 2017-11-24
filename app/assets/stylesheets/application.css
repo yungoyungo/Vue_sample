@@ -15,19 +15,32 @@
  */
 
  .container{
-    width: 400px;
+    padding-top: 70px;
+    max-width: 600px;
     margin: 20px auto;
 }
 
 h1 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: auto;
     padding-bottom: 10px;
+    padding-left: auto;
     margin-bottom: 15px;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
-input[type="text"], textarea{
+input{
+    font-size: 20px;
     box-sizing: border-box;
-    width: 400px;
+    width: 100%;
     padding: 5px;
+}
+
+button{
+    font-size: 20px;
+    height: auto;
+    width: 196px;
+    margin-top: 20px;
 }
