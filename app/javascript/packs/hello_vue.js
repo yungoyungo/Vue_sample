@@ -30,6 +30,10 @@ var form = new Vue({
         r += c[Math.floor(Math.random()*cl)];
       }
       this.message = r
+    },
+    jsonRequest: function () {
+      this.message = "Sorry, Not implemented."
+      //localhost:3000/jsonにアクセスしjsonを取得、表示
     }
   }
 })
